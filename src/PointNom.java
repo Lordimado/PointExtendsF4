@@ -8,9 +8,9 @@ public class PointNom extends PointA {
 	        this.Name = Name;        
 	    }
 	    
-	    public String AfficheCoord ()
+	    public String AfficheCoord () //ce qui est demandé est de redéfinir afficheCoord() ici
 	    {
-	        return this.Name + super.toString();
+	        return this.Name + super.AfficheCoord();
 	    }
 
 }
